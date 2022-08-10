@@ -1,0 +1,6 @@
+PREFIX_CONFIG_SCHEMA = """
+CREATE TABLE IF NOT EXISTS prefixes(
+    guild_id BIGINT UNIQUE NOT NULL,
+    prefix TEXT
+)
+"""
